@@ -2,7 +2,14 @@
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        white: '#ffffff',
+        bgreen: '#c1dea4',
+      },
+    },
   },
   plugins: [],
 };
