@@ -15,7 +15,7 @@ const Tabs = () => {
 
   return (
     <>
-      <div className='w-5/12 flex flex-col items-center py-10'>
+      <div className='w-5/12 flex flex-col items-center gap-14'>
         <div className='flex gap-4'>
           {tabs.map(({ id, tabName }) => {
             return (
@@ -29,7 +29,7 @@ const Tabs = () => {
             );
           })}
         </div>
-        <div>
+        <div className='bg-turquoise  w-full h-full rotate-3 p-8 text-black'>
           {displayTab === 1 && <SkillsTab />}
           {displayTab === 2 && <SoftSkillsTab />}
           {displayTab === 3 && <HobbiesTab />}
