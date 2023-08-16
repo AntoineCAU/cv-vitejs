@@ -1,8 +1,8 @@
-import CurriculumVitae from '../components/CurriculumVitae';
+import CurriculumVitae from './components/CurriculumVitae';
 
 const App = () => {
   return (
-    <div className='w-screen h-screen mx-auto bg-bgreen flex justify-center items-center'>
+    <div className='w-screen h-screen mx-auto bg-white flex justify-center items-center'>
       <CurriculumVitae />
     </div>
   );
