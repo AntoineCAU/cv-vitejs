@@ -5,18 +5,18 @@ const Character = (): JSX.Element => {
   const secondaries = [{ id: 5 }, { id: 6 }, { id: 7 }, { id: 8 }];
 
   return (
-    <div className='flex flex-col w-7/12 h-full gap-20'>
+    <div className='flex flex-col gap-20 w-1/2'>
       <div>
         <p className='w-fit bg-violet mx-auto px-4 py-2 rounded-sm text-xl text-white text-center'>
           Antoine Cau - Human level 34
         </p>
-        <p className='drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] w-fit mx-auto px-4 py-2 rounded-sm text-xl text-turquoise text-center animate-[colors_infinite]'>
+        <p className='w-fit mx-auto px-4 py-2 rounded-sm text-xl text-turquoise text-center animate-[colors_infinite]'>
           Frontend Developer
         </p>
       </div>
       <div className='flex justify-between'>
         <CharacterSkills skills={primaries} />
-        {/* <img className='w-1/4 rounded-xl' src='/ironman.png' /> */}
+        <img className='w-1/4 rounded-xl' src='/ironman.png' />
         <CharacterSkills skills={secondaries} />
       </div>
     </div>

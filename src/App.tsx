@@ -3,8 +3,8 @@ import Tabs from './components/tabs/Tabs';
 
 const App = () => {
   return (
-    <div className='w-full h-screen bg-black flex justify-center items-center p-16'>
-      <div className='flex flex-col md:flex-row items-start gap-16 rounded-xl h-full'>
+    <div className='w-screen h-screen bg-black flex justify-start items-start p-16'>
+      <div className='w-full flex flex-row gap-16 rounded-xl '>
         <Character />
         <Tabs />
       </div>

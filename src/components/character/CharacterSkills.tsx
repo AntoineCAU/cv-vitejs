@@ -39,7 +39,7 @@ const CharacterSkills = ({ skills }: CharacterSkillsProps): JSX.Element => {
               />
               <div
                 className={clsx(
-                  'flex justify-center items-center w-20 h-16 bg-violet -translate-y-2 ',
+                  'flex justify-center items-center w-20 h-16 bg-violet rounded-sm  -translate-y-2 ',
                   skill.id >= 1 && skill.id <= 4
                     ? '-translate-x-2'
                     : 'translate-x-2'
