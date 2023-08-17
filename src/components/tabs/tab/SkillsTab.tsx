@@ -1,4 +1,4 @@
-const SkillsTab = () => {
+const SkillsTab = (): JSX.Element => {
   return (
     <div>
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

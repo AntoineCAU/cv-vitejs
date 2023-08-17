@@ -1,4 +1,4 @@
-const HobbiesTab = () => {
+const HobbiesTab = (): JSX.Element => {
   return (
     <div>
       Aenean maximus iaculis sem ut convallis. Curabitur sed faucibus mi.
