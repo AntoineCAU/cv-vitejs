@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Orbitron;
+  src: url('../public/fonts/Orbitron.ttf');
+  font-weight: 400;
+}
+
+@keyframes flicker-1 {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  24%,
+  55% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes flicker-2 {
+  0%,
+  5%,
+  19%,
+  23%,
+  54%,
+  78%,
+  100% {
+    opacity: 1;
+  }
+  4%,
+  53%,
+  77% {
+    opacity: 0.8;
+  }
+}
+
+.animate-flicker-1 {
+  animation: flicker-1 6s infinite;
+}
+
+.animate-flicker-2 {
+  animation: flicker-2 6s infinite;
+}
+
+.text-neon {
+  text-shadow: 0px 0px 1px currentColor, 0px 0px 1px currentColor,
+    0px 0px 3px currentColor;
+}
+
+.icon-neon {
+  text-shadow: 0px 0px 6px currentColor, 0px 0px 1px currentColor,
+    0px 0px 3px currentColor;
+}

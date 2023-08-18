@@ -1,3 +1,5 @@
+import { clsx } from 'clsx';
+
 interface ProgressBarProps {
   note: number;
 }
@@ -10,9 +12,10 @@ const ProgressBar = ({ note }: ProgressBarProps): JSX.Element => {
       {[...Array(5)].map((_, index) => (
         <div
           key={index}
-          className={`w-6 h-6 rounded-sm ${
+          className={clsx(
+            'w-6 h-6 rounded-sm',
             index < filledPoints ? 'bg-violet' : 'bg-gray-300'
-          }`}
+          )}
         />
       ))}
     </div>
