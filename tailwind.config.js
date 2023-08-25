@@ -15,7 +15,6 @@ export default {
         pink: '#f148fb',
         turquoise: '#00ff9f',
         red: '#fd0130',
-        // darkred: '#451515',
         darkred: '#34161c',
         greyred: '#241a1a',
         yellow: '#fcee0a',

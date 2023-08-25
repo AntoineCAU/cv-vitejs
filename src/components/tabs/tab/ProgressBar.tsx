@@ -14,7 +14,7 @@ const ProgressBar = ({ note }: ProgressBarProps): JSX.Element => {
           key={index}
           className={clsx(
             'w-6 h-6 rounded-sm',
-            index < filledPoints ? 'bg-violet' : 'bg-gray-300'
+            index < filledPoints ? 'bg-green' : 'bg-gray-300'
           )}
         />
       ))}

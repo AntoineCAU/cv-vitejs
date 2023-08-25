@@ -10,7 +10,7 @@ const Header = () => {
           <p className='text-neon text-lg'>Developer</p>
           <p className='text-sm'>A.cau</p>
         </div>
-        <div className='w-full max-h-0 border-b-2 border-red  rounded' />
+        <div className='w-full max-h-0 border-b-2 border-red rounded' />
       </div>
     </div>
   );

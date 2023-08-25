@@ -8,7 +8,7 @@ const Tabs = (): JSX.Element => {
   const [displayTab, setDisplayTab] = useState(0);
 
   const tabs = [
-    { tabName: 'Hard Skills' },
+    { tabName: 'Abilities' },
     { tabName: 'Soft Skills' },
     { tabName: 'Hobbies' },
   ];
