@@ -16,9 +16,7 @@ const HeaderLinks = ({ icon, label }: HeaderLinksProps) => {
       onClick={() => setContent(label as ContentType)}
     >
       <p className='text-lg icon-neon'>{icon}</p>
-      <p
-        className={clsx('text-red text-sm ', content === label && 'text-neon')}
-      >
+      <p className={clsx('text-red text-sm', content === label && 'text-neon')}>
         {label}
       </p>
     </div>

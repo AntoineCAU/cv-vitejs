@@ -1,9 +1,7 @@
-import { Icon } from '../../interfaces';
-
-const CssIcon = ({ color }: Icon) => {
+const CssIcon = () => {
   return (
     <svg
-      className={`w-10 h-10 fill-current ${color}`}
+      className='w-10 h-10 fill-current ${color}'
       fill-rule='evenodd'
       viewBox='0 0 50 50'
     >

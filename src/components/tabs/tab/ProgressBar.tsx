@@ -8,12 +8,12 @@ const ProgressBar = ({ note }: ProgressBarProps): JSX.Element => {
   const filledPoints = Math.round((note / 5) * 5);
 
   return (
-    <div className='flex items-center gap-2 -skew-x-12'>
+    <div className='flex items-center gap-2'>
       {[...Array(5)].map((_, index) => (
         <div
           key={index}
           className={clsx(
-            'w-6 h-6 rounded-sm',
+            'w-4 h-6 rounded-sm',
             index < filledPoints ? 'bg-green' : 'bg-gray-300'
           )}
         />
